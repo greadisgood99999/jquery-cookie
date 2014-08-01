@@ -29,48 +29,48 @@ jquery-cookie
   
 cookie选项:
   
-   $.cookie("name","value",0,{
+    $.cookie("name","value",0,{
   
-    path:"/",
+    	path:"/",
   
-    domain:"www.test.cn",
+    	domain:"www.test.cn",
   
-    secure:false
+    	secure:false
   
-   });
+    });
   
 
   
-   $.cookie({name1:"value1",name2:"value2"},0,{
+    $.cookie({name1:"value1",name2:"value2"},0,{
   
-    path:"/",
+    	path:"/",
   
-    domain:"www.test.cn",
+    	domain:"www.test.cn",
   
-    secure:false
+    	secure:false
   
-   });
+    });
   
 
   
 读取某个cookie
 
-   $.cookie("name");
+    $.cookie("name");
   
 
   
 读取所有cookie
   
-   $.cookie();
+    $.cookie();
   
 
   
 删除某个cookie
   
-   $.unCookie("name");
+    $.unCookie("name");
   
 
   
 删除所有cookie
   
-   $.unCookie();
+    $.unCookie();
